@@ -1,0 +1,82 @@
+.movieDetailContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  max-width: 1200px;
+  margin: 0 auto;
+  color: var(--color-text);
+  background: var( --bg-2);
+}
+
+.posterSection {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.poster {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: var(--box-shadow);
+}
+
+.detailsSection {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ff9800;
+}
+
+.originalTitle, .releaseDate, .genres, .language, .popularity, .overview {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.genres{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.genresContainer{
+  display: flex;
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+.voteAverage {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #d5bf1e;
+}
+
+.rating_span{
+  font-size: 1.2rem;
+}
+
+.voteCount {
+  font-size: 1rem;
+  color: #b0bec5;
+}
+
+.adultContentWarning, .videoAvailable {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #ff4444;
+}
+
+.icon {
+  margin-right: 8px;
+  vertical-align: middle;
+}

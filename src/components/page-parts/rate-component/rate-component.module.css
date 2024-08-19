@@ -1,0 +1,10 @@
+
+
+.stars {
+  display: flex;
+  gap: 3px;
+}
+
+.stars:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: var(--background);
+    padding: 2rem;
+}
+
+.notFoundTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var( --color-text);
+}
+
+.notFoundMessage {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--color-text);
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 1rem;
+}

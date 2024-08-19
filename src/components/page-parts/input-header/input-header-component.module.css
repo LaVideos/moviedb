@@ -1,0 +1,66 @@
+.searchBox {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+
+}
+
+.inputSearch {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+    color: var(--color-text);
+    opacity: 0.8;
+    box-sizing: border-box;
+    border: none;
+    background-color: var( --bg-2);
+
+}
+
+.inputSearchExpanded {
+    width: 300px;
+    padding-right: 70px;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+    background-color: var( --bg-2);
+    border-radius: 20px;
+    color: var(--color-text);
+
+}
+
+.inputSearch:focus,
+.searchBox:focus-within .inputSearch {
+    width: 300px;
+    border-radius: 20px;
+    background-color: var( --bg-2);
+    padding-right: 70px;
+}
+
+.btnSearch {
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    color: var(--color-text);
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.searchIcon svg {
+    font-size: 24px;
+    color: var(--color-text)!important;
+}

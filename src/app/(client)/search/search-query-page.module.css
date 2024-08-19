@@ -1,0 +1,29 @@
+.searchResultsContainer {
+/*    padding: 20px;*/
+/*    background: var(--background);*/
+/*    color: var(--color-text);*/
+/*    border-radius: 8px;*/
+/*    box-shadow: var(--box-shadow);*/
+/*    margin-top: 20px;*/
+}
+
+
+.searchResultsTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.noResultsMessage {
+    font-size: 18px;
+    color: var(--error);
+    text-align: center;
+    padding: 20px;
+    background: var(--error-background);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+}
+
+.errorIcon {
+    margin-right: 10px;
+    vertical-align: middle;
+}

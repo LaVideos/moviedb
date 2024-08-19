@@ -1,0 +1,32 @@
+.movieContainer {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.movieContainer:hover {
+    background: var(--hover-search-header);
+    color: var(--text-white-hover);
+}
+
+.moviePoster {
+    width: 50px;
+    height: 75px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.movieTitle {
+    font-weight: bold;
+}
+
+.movieYear {
+    color: var(--movieYear);
+}

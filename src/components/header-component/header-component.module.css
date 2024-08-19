@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.navLinks {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 4px;
+}
+
+.navLinks a:hover {
+    color: var(--link-hover);
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchContainer {
+    flex-shrink: 0;
+    width: 300px; }
+
+.toggle {
+    margin-left: 10px;
+}
+
+.pseudoAcc {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.headerMargin {
+    margin-bottom: 100px;
+}

@@ -1,0 +1,43 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 19px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.trending {
+  height: 100vh;
+}
+
+
+
+
+
+.row_container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.row_container::-webkit-scrollbar {
+  display: none;
+
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.noMoviesContainer{
+  margin: 50px;
+}
+
+.noMovies{
+  font-size: 30px;
+  color: var(--color-text);
+}

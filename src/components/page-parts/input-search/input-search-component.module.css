@@ -1,0 +1,14 @@
+.searchInput {
+    background: var(--background);
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    color: var(--color-text);
+}
+
+
+
+
+.large{
+    width: 400px;
+}

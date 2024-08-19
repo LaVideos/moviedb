@@ -1,0 +1,16 @@
+.noResultsMessage {
+    font-size: 18px;
+    color: var(--error);
+    text-align: center;
+    padding: 20px;
+    background: var(--error-background);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    margin: 50px;
+    border: 2px solid var(--color-1);
+}
+
+.errorIcon {
+    margin-right: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+:root {
+
+    --text-color-light-1: rgb(246, 246, 246) 0%;
+    --text-color-light-2: rgb(246, 246, 246) 50%;
+    --text-color-light-3: rgb(238, 238, 238) 100%;
+    --text-color-dark-1: hsl(225, 24%, 29%);
+    --text-color-dark-2: rgb(56, 65, 91) 50%;
+    --text-color-dark-3: rgb(44, 50, 70) 100%;
+
+    --background-color-light: linear-gradient(90deg,var(--text-color-light-1), var(--text-color-light-2), var(--text-color-light-3));
+    --background-color-dark: linear-gradient(90deg,var(--text-color-dark-1), var(--text-color-dark-2), var(--text-color-dark-3));
+
+    --box-shadow-light: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    --box-shadow-light-hover:0 6px 10px rgba(0, 0, 0, 0.2);
+
+    --box-shadow-dark: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    --box-shadow-dark-hover:0 6px 10px rgba(0, 0, 0, 0.2);
+
+    --star-light:#d5bf1e;
+    --star-dark:#d5bf1e;
+
+    --link-hover-light:#0070f3;
+    --link-hover-dark: #f3a600;
+
+    --warning-light: #e33c3c;
+    --warning-dark:#ff4444;
+
+    --animation-sun:spin 0s linear infinite;
+
+    --toggle-position-left-before-light:0px;
+    --toggle-position-left-light:0px;
+
+    --toggle-position-left-before-dark:55px;
+    --toggle-position-left-dark:55px;
+
+    --toggle-animation:right 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+
+    --sun-dark:rgba(63, 78, 90, 0);
+    --sun-light: rgb(239, 213, 59);
+
+    --moon-light:#F4F6FAFF;
+    --moon-dark: #faf9f4;
+
+    --movieYear-light:#555;
+    --movieYear-dark: #ababab;
+
+    --text-white-hover:#fff;
+    --text-dark-hover: #bbbbbb;
+
+    --background-focus-light: #f0f0f0;
+    --background-focus-dark: #2c2c2c;
+
+    --hover-light: #4d94da;
+    --hover-dark: #754523;
+
+    --error-light: #f6f5f5;
+    --error-dark: #f3f0f0;
+
+    --error-background-light: #e02626;
+    --error-background-dark: #a91717;
+
+}
+
+body.light-theme {
+
+    --background: var(--text-color-light-1);
+    --color-1-current:var(--text-color-light-1);
+    --color-1:var(--text-color-light-1);
+    --color-2:var(--text-color-dark-2);
+    --color-c:var(--text-color-dark-3);
+    --star:var(--star-light) ;
+    --link-hover:var(--link-hover-light) ;
+
+    --box-shadow:var(--box-shadow-light) ;
+    --box-shadow-hover:var(--box-shadow-light-hover) ;
+
+    --text-color:var(--text-color-dark-1) ;
+
+    background: var(--background);
+
+    --warning:var(--warning-light);
+
+    --moon:var(--moon-light);
+    --sun:var(--sun-light);
+
+    --toggle-position-left-before:var(--toggle-position-left-before-light);
+    --toggle-position-left:var(--toggle-position-left-light);
+
+    --movieYear:var(--movieYear-light) ;
+
+    --text-hover:var(--text-dark-hover);
+
+    --background-focus:var(--background-color-light);
+
+    --hover-search-header:var(--hover-light);
+
+    --error:var(--error-light);
+
+    --error-background:var(--error-background-light);
+
+    --color-text:#38415CFF;
+
+    --bg-2: #e3e2e2
+
+}
+
+body.dark-theme {
+    --background: var(--text-color-dark-1);
+    --color-1-current:var(--text-color-dark-1);
+    --color-1: rgb(246, 246, 246) 0%;
+    --color-2:#F6F6F6FF;
+    --color-c:var(--text-color-light-3);
+    --star:var(--star-dark);
+    --link-hover:var(--link-hover-dark) ;
+
+    --text-color:var(--text-color-light-1) ;
+
+
+
+    --box-shadow: var(--box-shadow-dark);
+    --box-shadow-hover: var(--box-shadow-dark-hover);
+
+    background: var(--background);
+
+    --warning: var(--warning-dark);
+
+    --moon:var(--moon-dark);
+    --sun:var(--sun-light);
+
+    --toggle-position-left-before:var(--toggle-position-left-before-dark);
+    --toggle-position-left:var(--toggle-position-left-dark);
+
+    --movieYear:var(--movieYear-dark) ;
+
+    --text-hover:var(--text-white-hover);
+
+    --background-focus:var(--background-focus-dark);
+
+    --hover-search-header:var(--hover-dark);
+
+    --error:var(--error-dark);
+
+    --error-background:var(--error-background-dark);
+
+    --color-text:#F6F6F6FF;
+
+    --bg-2:#30374DFF
+}

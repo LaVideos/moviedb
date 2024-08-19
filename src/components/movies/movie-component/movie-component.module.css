@@ -1,0 +1,45 @@
+.cardContent {
+  position: relative;
+  height: auto;
+  padding-bottom: 0.2vw;
+}
+
+.poster {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0
+}
+
+
+
+
+.badgeNew {
+  position: absolute;
+  top: 0.5vw;
+  right: 0.5vw;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.97);
+  border-radius: 8px;
+  margin: 0.3vw 0.2vw 0.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 20px;
+}
+
+.badgeNew svg{
+  font-size: 40px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+  z-index: 1;
+}
